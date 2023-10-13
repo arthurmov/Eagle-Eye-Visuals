@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagle Eye Visuals</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/5b5925fb4d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+ <!--NavBar Section-->
+    <nav class="navbar">
+        <div class="nav__container">
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <a href="/HTML-CSS-FILES/index.html"><img src="images/index-images/logo.png" alt="pic" height="100px" width="500px" class="navbar_logo"></a>
+         <div class="list__space">
+            <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="prices.html" class="navbar__links">Prices</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Floor Plans</a>
+                          </a>
+                          <a href="#">Matterport 3D Scans</a>
+                          <a href="#">Real Estate Photography</a>
+                          <a href="#">Drone Photos and Videos</a>
+                        </div>
+                      </div>
+                    </div>
+              </li>
+            <li class="navbar__item">
+                    <a href="portfolio.html" class="navbar__links">Portfolio</a>
+            <li class="navbar__item">
+                    <a href="contact.html" class="navbar__links">Contact</a>
+                </li>
+            <li class="navbar__item">
+                    <a href="/" class="navbar__links">FAQ</a>
+                </li>
+            </div>
+                  <li class="navbar__btn">
+                    <a href="bookappointment.html" class="button">Book Appointment!</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+ <!--Hero Section-->
+    <div class="main">
+           <div class="main__mp4--container">
+                 <video autoplay muted loop class="video_main">
+                    <source src="videos/dronefootage_trim.mp4" type="video/mp4">
+                 </video>
+            </div>
+
+     <div class="main__content">
+                <h1>ELEVATE YOUR</h1>
+                <h2>REAL ESTATE</h2>
+                <p>High-Flying Drone Photography</p>
+                <button class="main__btn"><a href="prices.html">Learn More</a></button>
+     </div>
+    </div>
+
+<!-- Services Section-->
+    <div class="services">
+        <h1>Services we offer</h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Floor Plans</h2>
+                <p>Top Tier Technology</p>
+                <button class="services_btn"><a href="prices.html">View Details</a></button>
+        </div>
+            <div class="services__card">
+                <h2>Matterport 3D Scans & Virtual Tour</h2>
+                <p>Take the leap</p>
+                <button class="services_btn"><a href="prices.html">View Details</a></button>
+            </div>
+            <div class="services__card">
+                <h2>Real Estate Photography</h2>
+                <p>Take the leap</p>
+                <button class="services_btn"><a href="prices.html">View Details</a></button>
+            </div>
+            <div class="services__card">
+                <h2>Drone Shot Photos & Videos</h2>
+                <p>Take the leap</p>
+                <button class="services_btn"><a href="prices.html">View Details</a></button>
+            </div>
+    </div>
+</div>
+
+<!--Footer Section-->
+<div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>About Us</h2>
+                <a href="/">Home</a>
+                <a href="/">Pricing</a><a href="/">Portfolio</a>
+                <a href="/">Terms of Service</a>
+            </div>
+            <div class="footer__link--items">
+                <h2>About Us</h2>
+                <a href="/">How it works</a>
+                <a href="/">Testimonals</a><a href="/">Careers</a>
+                <a href="/">Investments</a><a href="/">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>Contact Us</h2>
+                <a href="/">Support Services</a>
+                <a href="/">FAQ</a>
+            </div>
+            <div class="footer__link--items">
+                <h2>Social Media</h2>
+                <a href="https://www.instagram.com/eagleeyevisualsbk">Instagram</a><a href="/">Youtube</a>
+                <a href="/">Twitter</a><a href="/">Facebook</a>
+            </div>
+        </div>
+    </div>
+    <div class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo">Eagle Eye Visuals</a>
+            </div>
+          <p class="website__rights">Eagle Eye Visuals 2022. All rights reserved</p>
+            <div class="social__icons">
+                <a href="/" class="social__icon" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/eagleeyevisualsbk/" class="social__icon" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="/" class="social__icon" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="/" class="social__icon" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+    <script defer src="app.js"></script>
+</body>
+</html>
